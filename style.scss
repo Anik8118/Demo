@@ -1,0 +1,78 @@
+body{
+    margin:0px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    z-index: 1000;
+    &__container{
+        display: flex;
+    }
+    &__left{
+        display: flex;
+        gap: 50px;
+    }
+    &__image{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color:orangered;
+        position: absolute;
+        margin-top: 10px;
+    }
+    &__hedding{
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 13px;
+    }
+    &__right{
+        position: absolute;
+        margin-left: 950px;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        list-style-type:none; 
+        }
+    &__item{
+        color: black;
+    }    
+    &__link{
+        text-decoration: none;
+        color: gray;
+    }
+    &__link:hover{
+        color: #000;
+    }
+}
+
+/*Hero */
+.hero{
+    &__container{
+        margin-top: 150px;
+        position: absolute;
+        margin-left: 450px;
+        
+    }
+    &__text{
+        line-height: 14px;
+    }
+    &__para{
+        position: relative;
+        margin-left: 150px;
+    }
+    &____search{
+        display: flex;
+    }
+    &__bar{
+        padding: 20px 185px;
+        border-radius: 0.25rem;
+        background-color: rgb(242, 240, 240);
+    }
+    &__btn{
+
+    }
+}
